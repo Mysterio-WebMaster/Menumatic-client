@@ -1,13 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Connection from "./components/connection"
+import Menu from "./components/menu"
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <h2>Menumatic Vite App</h2>
+      <Connection />
+      <hr />
+      <Menu />
     </>
   )
 }
