@@ -22,7 +22,7 @@ export default function menu() {
       <h3>Menu List</h3>
       <button onClick={menuList}>Fetch Menu</button>
       {data.map((item) => (
-        <ul>
+        <ul key={item.itemid}>
           <li><b>Id: </b>{item.itemid}</li>
           <li><b>Category: </b>{item.category}</li>
           <li><b>Name: </b>{item.name}</li>
