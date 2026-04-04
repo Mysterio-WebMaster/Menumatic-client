@@ -1,12 +1,13 @@
 import React, { useState } from 'react'
 import axios from 'axios'
+const HOST = import.meta.env.VITE_API_HOST
 
 export default function connection() {
 
   const [data, setData] = useState()
 
   const connect = () => {
-    axios.get("http://localhost:5000/")
+    axios.get(HOST)
       .then((response) => {
         console.log(response.data);
         setData(response.data)

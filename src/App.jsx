@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <h2>Menumatic Vite App</h2>
-      <Connection />
+      {/* <Connection /> */}
       <hr />
       <Menu />
     </>
