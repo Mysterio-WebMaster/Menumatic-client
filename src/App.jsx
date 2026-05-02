@@ -1,5 +1,5 @@
 import Connection from "./components/connection"
-import Menu from "./components/menu"
+import Menu from "./components/Menu"
 
 function App() {
 
